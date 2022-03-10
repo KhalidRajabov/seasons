@@ -42,7 +42,42 @@ namespace seasons_array_for_loop
                         Console.WriteLine($"{a} ayının daxil olduğu sezon: Payız");
                     }
                 }
+    /*            for(int d = 0; d < summer.Length; d++)
+                {
+                    if (a != summer[d])
+                    {
+                        Console.WriteLine("Daxil edilen ay sehvdir");
+                        break;
+                    }
+                    for (int s = 0; s < autumn.Length; s++)
+                    {
+                        if(a != autumn[s])
+                        {
+                            Console.WriteLine("Daxil edilen ay sehvdir");
+                            break;
+                        }
+                        for (int l = 0; l < spring.Length; l++)
+                        {
+                            if (a != spring[l])
+                            {
+                                Console.WriteLine("Daxil edilen ay sehvdir");
+                                break;
+                            }
+                            for (int w = 0; w < winter.Length; w++)
+                            {
+                                if (a != winter[w])
+                                {
+                                    Console.WriteLine("Daxil edilen ay sehvdir");
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                    
+
+                }*/
             }
+            
      
             while (Console.ReadKey().Key != ConsoleKey.Escape) ;
         }
